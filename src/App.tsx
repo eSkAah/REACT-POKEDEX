@@ -1,10 +1,13 @@
-import React, {FunctionComponent} from 'react';
+import React, {FunctionComponent, useState, useEffect} from 'react';
+import POKEMONS from './models/mock-pokemon';
+import Pokemon from './models/pokemon';
+import PokemonCard from './components/pokemon-card';
+import PokemonList from './pages/pokemon-list';
   
 const App: FunctionComponent = () => {
- const name: String = 'React';
-    
+
  return (
-  <h1>Bonjour, {name} !</h1>
+	<PokemonList />
  )
 }
   
