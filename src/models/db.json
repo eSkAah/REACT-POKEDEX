@@ -18,7 +18,8 @@
       "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png",
       "types": [
         "Feu"
-      ]
+      ],
+      "name": "Salamèche"
     },
     {
       "id": 3,
@@ -144,6 +145,28 @@
         "Normal"
       ],
       "created": "2021-09-18T09:02:59.061Z"
+    },
+    {
+      "id": 1631956038726,
+      "hp": 100,
+      "cp": 10,
+      "name": "Nouveau Pojemoin",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/234.png",
+      "types": [
+        "Normal"
+      ],
+      "created": "2021-09-18T09:07:18.726Z"
+    },
+    {
+      "id": 1631956056151,
+      "hp": 100,
+      "cp": 10,
+      "name": "test Pokemon",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/450.png",
+      "types": [
+        "Normal"
+      ],
+      "created": "2021-09-18T09:07:36.151Z"
     }
   ]
 }
