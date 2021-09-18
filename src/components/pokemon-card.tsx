@@ -38,8 +38,7 @@ const PokemonCard: FunctionComponent<Props> = ({pokemon, borderColor = '#009688'
         <div className="card-stacked">
           <div className="card-content">
             <p>{pokemon.name}</p>
-            <p><small>{formatDate(pokemon.created)}</small></p>
-            <p><small>{pokemon.created.toString()}</small></p>
+            
             {pokemon.types.map(type => (
                 <span key={type} className={formatType(type)}>{type}</span>
             ))}
